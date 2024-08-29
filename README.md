@@ -1,10 +1,10 @@
-Bruno Biletsky  - RM: 554739
+Bruno Biletsky   - RM: 554739
 
-Enrico Ricarte  - RM: 558571
+Enrico Ricarte   - RM: 558571
 
-Victor Freire   - RM: 556191
+Victor Freire    - RM: 556191
 
-Matheus Gushi   - RM: 556935
+Matheus Gushi    - RM: 556935
 
 # Sistema de Monitoramento e Controle para Carro da Formula E
 
