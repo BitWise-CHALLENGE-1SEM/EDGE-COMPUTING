@@ -13,7 +13,8 @@ Pedro Ferrari    - RM: 554887
 Este projeto consiste em um sistema embarcado desenvolvido para monitorar  e controlar (localmente e à distancia) diversos aspectos de um carro de corrida da Formula E, utilizando a plataforma FIWARE para enviar os dados à NUVEM (para acessá-los de qualquer lugar), sensores, um display LCD e LEDs indicativos. O código foi escrito em C++ para a plataforma Arduino.
 
 ## Componentes Utilizados
-
+- **Plataforma FIWARE**:  Plataforma de infraestrutura aberta que será utilizada para captar e armazenar dados de temperatura e luminosidade dos sensores (permitindo acessar os dados de qualquer lugar a qualquer momento)
+- **Serviço de computação em NUVEM**: Amazon Web Services (AWS)
 - **ESP32**: Plataforma de desenvolvimento para sistemas embarcados com WI-FI integrado.
 - **Sensores**:
   - Sensor DHT22: Utilizado para medir temperatura ambiente.
