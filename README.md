@@ -6,6 +6,8 @@ Victor Freire    - RM: 556191
 
 Matheus Gushi    - RM: 556935
 
+Pedro Ferrari    - RM: 554887
+
 # Sistema de Monitoramento e Controle para Carro da Formula E
 
 Este projeto consiste em um sistema embarcado desenvolvido para monitorar e controlar diversos aspectos de um carro de corrida da Formula E, utilizando sensores, um display LCD e LEDs indicativos. O código foi escrito em C++ para a plataforma Arduino.
