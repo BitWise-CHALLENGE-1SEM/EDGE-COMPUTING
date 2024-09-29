@@ -34,23 +34,17 @@ Todos os dados de temperatura e luminosidade captado pelo sistema é enviado em 
 A plataforma FIWARE é uma infraestrutura aberta que facilita a criação de aplicações inteligentes em diversas áreas, incluindo a Internet das Coisas (IoT). No contexto deste projeto, FIWARE é utilizada para captar e armazenar dados de temperatura e luminosidade dos sensores, sendo assim, através do POSTMAN podemos acessar em tempo real os dados captados pelos sensores, além de posteriormente possibilitar a criação de gráficos (dashboard histórico) para analisar os dados captados durante uma corrida ou até mesmo para verificá-los em tempo real através de um dashboard dinâmico.
 
 #### Envio para a Nuvem
-##### Conexão
-O ESP32 se conecta à internet através de um módulo Wi-Fi ou Ethernet.
+1. **Conexão**: O ESP32 se conecta à internet através de um módulo Wi-Fi ou Ethernet.
 
-##### Protocolo
-Utilizando protocolos como MQTT, os dados são enviados para o FIWARE Orion Context Broker.
+2. **Protocolo**: Utilizando protocolos como MQTT, os dados são enviados para o FIWARE Orion Context Broker.
 
 #### Armazenamento e Processamento
-##### Orion Context Broker
-Este componente central do FIWARE recebe os dados e os armazena como entidades contextuais.
+1. **Orion Context Broker**: Este componente central do FIWARE recebe os dados e os armazena como entidades contextuais.
 
-##### Persistência
-Para armazenamento a longo prazo, os dados são enviados para um banco de dados MongoDB.
+2. **Persistência**: Para armazenamento a longo prazo, os dados são enviados para um banco de dados MongoDB.
 
 #### Análise e Visualização
-##### Ferramentas de Análise
-Após as informações serem armazenadas no MongoDB, podemos utilizar outras ferramentas para a coleta de dados históricos e a representação deles em dashboards estáticos (dados históricos) ou dinâmicos (atualizado em tempo real). Nesse contexto, utilizamos o Google Colaboratory (Python) para gerar o dashboard histórico.
-
+**Ferramentas de Análise**: Após as informações serem armazenadas no MongoDB, podemos utilizar outras ferramentas para a coleta de dados históricos e a representação deles em dashboards estáticos (dados históricos) ou dinâmicos (atualizado em tempo real). Nesse contexto, utilizamos o Google Colaboratory (Python) para gerar o dashboard histórico.
 
 ### Monitoramento de Temperatura
 
