@@ -28,6 +28,8 @@ Este projeto consiste em um sistema embarcado desenvolvido para monitorar  e con
 
 ### Envio de Dados em Tempo Real para a Nuvem 
 
+![bitwise_diagrama_fiware](https://github.com/user-attachments/assets/a3dc91eb-b904-4c91-b249-e9147806a2fa)
+
 #### Descrição do Sistema
 Todos os dados de temperatura e luminosidade captado pelo sistema é enviado em tempo real para a nuvem, utilizando a plataforma FIWARE. Esta funcionalidade é essencial para monitorar e analisar as condições do carro de corrida remotamente.
 
